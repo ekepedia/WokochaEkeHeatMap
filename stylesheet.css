@@ -1,0 +1,112 @@
+*
+{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* Backgroun */
+.container
+{
+  background: #dfdfe8;
+}
+
+/* Grid CSS */ 
+.grid
+{
+  display: block;
+  clear: both;
+}
+
+.grid-item,
+.grid-sizer
+{
+  width: 6vw
+}
+
+.grid-item
+{
+  float: left;
+  height: 8vw;
+  background: #0D8;
+  border: vw solid white;
+  border-color: white;
+  min-width: 100px;
+  min-height: 100px;
+
+}
+
+.grid-item .name
+{
+	color: white;
+	text-align: center;
+	font-size: 14;
+}
+
+.grid-item .type
+{
+	color:white;
+	text-align: center;
+	font-size: 12;
+}
+
+/* Community Readiness Level CSS */
+.size-1
+{
+	width:  12vw;
+	height: 12vw;
+	background: #d55a43;
+}
+.size-2
+{
+	width:  12vw;
+	height: 12vw;
+	background: #e5b46f;
+}
+.size-3
+{
+	width:  12vw;
+	height: 12vw;
+	background: #c1d78d;
+}
+
+.size-4
+{
+	width:  6vw;
+	height: 6vw;
+	background: #75bca3;
+  	min-width: 75px;
+  	min-height: 75px;
+}
+
+.size-5
+{
+	width:  6vw;
+	height: 6vw;
+	background: #5ea2b0;
+	min-width: 75px;
+  	min-height: 75px;
+}
+
+/* Individual CSS */
+
+#logo 
+{
+	max-width: 300px;
+	top: 10px;
+	right: 15px;
+}
+
+#title
+{
+	vertical-align: middle;
+}
+
+#loading_screen
+{
+	color: white;
+}
+
+.hidden
+{
+	visibility: hidden;
+}
